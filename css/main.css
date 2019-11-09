@@ -1,0 +1,55 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+  background: #F7E1BC;
+  margin: 0;
+}
+
+section {
+  display: flex;
+  max-width: 1280px;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.info {
+  padding: 0 6rem 1.5rem 6rem;
+  font-size: 1.3rem;
+}
+
+.clickhere {
+  padding-bottom: 0.5rem;
+}
+
+.container {
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Jomolhari', serif;
+}
+
+@media screen and (max-width: 800px) {
+section {
+  margin: 0;
+}
+
+h1 {
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+}
+}
